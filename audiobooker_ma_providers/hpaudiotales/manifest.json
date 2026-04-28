@@ -1,0 +1,15 @@
+{
+  "type": "music",
+  "stage": "beta",
+  "multi_instance": false,
+  "codeowners": [
+    "@TigreGotico"
+  ],
+  "documentation": "https://github.com/TigreGotico/audiobooker",
+  "requirements": [
+    "audiobooker"
+  ],
+  "domain": "hpaudiotales",
+  "name": "HP Audio Tales",
+  "description": "Harry Potter fan audiobooks via HP Audio Tales."
+}

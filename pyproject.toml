@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audiobooker-ma-providers"
+version = "0.1.0"
+description = "Per-source audiobook providers for Music Assistant via audiobooker"
+requires-python = ">=3.11"
+dependencies = ["music-assistant-plugin-manager", "audiobooker"]
+
+[project.entry-points."music_assistant.provider"]
+librivox               = "audiobooker_ma_providers.librivox"
+loyalbooks             = "audiobooker_ma_providers.loyalbooks"
+darkerprojects         = "audiobooker_ma_providers.darkerprojects"
+audioanarchy           = "audiobooker_ma_providers.audioanarchy"
+goldenaudiobooks       = "audiobooker_ma_providers.goldenaudiobooks"
+stephenkingaudiobooks  = "audiobooker_ma_providers.stephenkingaudiobooks"
+hpaudiotales           = "audiobooker_ma_providers.hpaudiotales"
+thecybrarian           = "audiobooker_ma_providers.thecybrarian"
+horrorbabble           = "audiobooker_ma_providers.horrorbabble"
+audiobooker_index      = "audiobooker_ma_providers.audiobooker_index"
+
+[tool.setuptools.packages.find]
+include = ["audiobooker_ma_providers*"]
+
+[tool.setuptools.package-data]
+audiobooker_ma_providers = ["*/manifest.json"]

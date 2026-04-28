@@ -1,0 +1,15 @@
+{
+  "type": "music",
+  "stage": "beta",
+  "multi_instance": false,
+  "codeowners": [
+    "@TigreGotico"
+  ],
+  "documentation": "https://github.com/TigreGotico/audiobooker",
+  "requirements": [
+    "audiobooker"
+  ],
+  "domain": "darkerprojects",
+  "name": "Darker Projects",
+  "description": "Free audio dramas and fiction from Darker Projects."
+}

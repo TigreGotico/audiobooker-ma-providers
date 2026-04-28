@@ -1,0 +1,15 @@
+{
+  "type": "music",
+  "stage": "beta",
+  "multi_instance": false,
+  "codeowners": [
+    "@TigreGotico"
+  ],
+  "documentation": "https://github.com/TigreGotico/audiobooker",
+  "requirements": [
+    "audiobooker"
+  ],
+  "domain": "horrorbabble",
+  "name": "HorrorBabble",
+  "description": "Horror/Lovecraft short fiction narrated by HorrorBabble (YouTube channel)."
+}

@@ -1,0 +1,11 @@
+{
+  "type": "music",
+  "domain": "audiobooker_index",
+  "name": "Audiobooks (My Index)",
+  "description": "Audiobooks from your personal audiobooker SQLite index. Populate it via: python -m audiobooker.index build",
+  "codeowners": ["@TigreGotico"],
+  "stage": "beta",
+  "requirements": ["audiobooker"],
+  "documentation": "https://github.com/TigreGotico/audiobooker",
+  "multi_instance": false
+}

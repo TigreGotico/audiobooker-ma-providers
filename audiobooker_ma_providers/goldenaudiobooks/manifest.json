@@ -1,0 +1,15 @@
+{
+  "type": "music",
+  "stage": "beta",
+  "multi_instance": false,
+  "codeowners": [
+    "@TigreGotico"
+  ],
+  "documentation": "https://github.com/TigreGotico/audiobooker",
+  "requirements": [
+    "audiobooker"
+  ],
+  "domain": "goldenaudiobooks",
+  "name": "Golden Audiobooks",
+  "description": "Free audiobooks from Golden Audiobooks."
+}
