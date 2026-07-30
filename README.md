@@ -1,6 +1,6 @@
 # audiobooker-ma-providers
 
-Per-source free audiobook providers for [Music Assistant](https://music-assistant.io) — each public-domain audiobook catalogue registers as its own provider.
+This package adds free audiobook providers to [Music Assistant](https://music-assistant.io). Each public-domain audiobook catalogue registers as its own provider.
 
 ## Install
 
@@ -20,26 +20,29 @@ All providers appear automatically in Music Assistant's provider list after inst
 
 | Domain | Description |
 |---|---|
-| `librivox` | LibriVox — volunteer-read public domain audiobooks |
-| `loyalbooks` | Loyal Books — public domain audiobooks and ebooks |
-| `darkerprojects` | Darker Projects — audio dramas and fiction |
-| `audioanarchy` | Audio Anarchy — independent audio productions |
-| `goldenaudiobooks` | Golden Audiobooks — classic literature |
+| `librivox` | LibriVox, volunteer-read public domain audiobooks |
+| `loyalbooks` | Loyal Books, public domain audiobooks and ebooks |
+| `darkerprojects` | Darker Projects, audio dramas and fiction |
+| `audioanarchy` | Audio Anarchy, independent audio productions |
+| `goldenaudiobooks` | Golden Audiobooks, classic literature |
+
+| Domain | Description |
+|---|---|
 | `stephenkingaudiobooks` | Stephen King Audiobooks archive |
 | `hpaudiotales` | H.P. Lovecraft audio tales |
-| `thecybrarian` | The Cybrarian — curated free audiobooks |
-| `horrorbabble` | HorrorBabble — horror fiction narrations |
+| `thecybrarian` | The Cybrarian, curated free audiobooks |
+| `horrorbabble` | HorrorBabble, horror fiction narrations |
 | `audiobooker_index` | Aggregated index across all audiobooker sources |
 
 ## Requirements
 
 - `music-assistant-plugin-manager`
-- `audiobooker` — audiobook catalogue and streaming client
+- `audiobooker`, the audiobook catalogue and streaming client
 
 ## See also
 
-[audiobooker-ma-provider](https://github.com/TigreGotico/audiobooker-ma-provider) — the single-source variant if you only need one provider entry.
+[audiobooker-ma-provider](https://github.com/TigreGotico/audiobooker-ma-provider) is the single-source variant. Use it if you need only one provider entry.
 
 ## Part of plugin-managers
 
-Powered by [plugin-managers](https://github.com/TigreGotico/plugin-managers) — entrypoint-based plugin discovery for Music Assistant and Home Assistant.
+[plugin-managers](https://github.com/TigreGotico/plugin-managers) provides the entrypoint-based plugin discovery that this package uses for Music Assistant and Home Assistant.
