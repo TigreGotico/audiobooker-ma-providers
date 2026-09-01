@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "audiobooker-ma-providers"
-version = "0.1.0"
+dynamic = ["version"]
 description = "Per-source audiobook providers for Music Assistant via audiobooker"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = ["music-assistant-plugin-manager", "music-assistant-models>=1.1.206", "audiobooker>=0.9.0a3", "yt-dlp>=2024.1.0"]
 
 [project.optional-dependencies]
@@ -29,6 +29,9 @@ hpaudiotales           = "audiobooker_ma_providers.hpaudiotales"
 thecybrarian           = "audiobooker_ma_providers.thecybrarian"
 horrorbabble           = "audiobooker_ma_providers.horrorbabble"
 audiobooker_index      = "audiobooker_ma_providers.audiobooker_index"
+
+[tool.setuptools.dynamic]
+version = { attr = "audiobooker_ma_providers.version.__version__" }
 
 [tool.setuptools.packages.find]
 include = ["audiobooker_ma_providers*"]
