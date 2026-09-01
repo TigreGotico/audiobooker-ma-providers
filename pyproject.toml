@@ -6,8 +6,17 @@ build-backend = "setuptools.build_meta"
 name = "audiobooker-ma-providers"
 version = "0.1.0"
 description = "Per-source audiobook providers for Music Assistant via audiobooker"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.11"
-dependencies = ["music-assistant-plugin-manager", "audiobooker"]
+dependencies = ["music-assistant-plugin-manager", "music-assistant-models>=1.1.206", "audiobooker>=0.9.0a3", "yt-dlp>=2024.1.0"]
+
+[project.optional-dependencies]
+test = ["pytest", "pytest-asyncio"]
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+asyncio_mode = "auto"
 
 [project.entry-points."music_assistant.provider"]
 librivox               = "audiobooker_ma_providers.librivox"
