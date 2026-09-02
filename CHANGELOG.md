@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.1a2](https://github.com/TigreGotico/audiobooker-ma-providers/tree/0.1.1a2) (2026-09-01)
+
+[Full Changelog](https://github.com/TigreGotico/audiobooker-ma-providers/compare/0.1.1a1...0.1.1a2)
+
 ## [0.1.1a1](https://github.com/TigreGotico/audiobooker-ma-providers/tree/0.1.1a1) (2026-09-01)
 
 [Full Changelog](https://github.com/TigreGotico/audiobooker-ma-providers/compare/57b437bb1d1a2be2e0824d2ef0ce560d37133bd0...0.1.1a1)
